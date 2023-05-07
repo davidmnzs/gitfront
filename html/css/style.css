@@ -1,0 +1,131 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 0;
+    width: 100%;
+    background-color: ghostwhite;
+
+
+
+}
+.header{
+    padding: 20px 100px;
+    position: relative;
+    color: white;
+    border-style: solid;
+    border-color: #f3f3f3;
+    background-color: #352f2f;
+
+}
+.naveg {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 191px;
+    
+    
+}
+.li a{
+    display: block;
+    width: 60px;
+    text-decoration: none;
+    padding: 8px 65px;
+    color: black;
+}
+.li a:hover{
+    background-color: #555;
+    color: white;
+}
+center {
+    position: absolute;
+    top: -49px;
+    right: -40px;
+
+}
+center:hover{
+    filter: drop-shadow(4px 0px 7px);
+}
+.cabec{
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+ 
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 100px;
+    position: relative;
+    top: 67px;
+    color: white;
+    border-style: solid;
+    border-radius: 122px;
+    border-color: #f3f3f3;
+    background-color: #221e1e;
+}
+.naav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 191px;
+    position: relative;
+    top: 110px;
+    right: -7px;
+    
+    
+}
+.li2 a{
+    display: block;
+    width: 60px;
+    text-decoration: none;
+    padding: 8px 65px;
+    color: black;
+}
+.li2 a:hover{
+    background-color: #555;
+    color: white;
+}
+.ul3 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 191px;
+    position: relative;
+    top: -46px;
+    right: -205px;
+    
+}
+.li3 a{
+    display: block;
+    width: 60px;
+    text-decoration: none;
+    padding: 8px 65px;
+    color: black;
+}
+.li3 a:hover{
+    background-color: #555;
+    color: white;
+}
+.foot{
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-radius: 122px;
+    border-color: #f3f3f3;
+    background-color: #221e1e;
+
+}
+@media only screen and (max-width: 600px) {
+    .body11{
+        width: 100%;
+        height: auto;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .li,
+    .davi{
+        font-size: 15px;
+    }
+  }
